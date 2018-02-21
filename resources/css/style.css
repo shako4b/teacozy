@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center
+  opacity: 0.9;
+}
+/* Not good yet at inheritance of properties. */
+.headercon {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  text-align: right;
+}
+nav span {
+  display: inline-block;
+  padding-right: 10px;
+}
+nav span a {
+  text-decoration: underline;
+  color: seashell;
+}
+.missioncon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 1200px;
+  height: 700px;
+  padding-top: 69px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+.totmcon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+}
+#totm .content {
+  background-color: black;
+  width: 1000px;
+  margin: auto;
+}
+.teas img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px;
+}
+.location {
+  margin: 40px 25px 0px 25px;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+.locationscon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1100px;
+  margin: auto;
+}
+#location .content {
+  text-align: center;
+  height: 75px; /* Adjusting the height was the only way I could
+                   get the Locations h2 to move down. Vexing. */
+  padding-top: 45px;
+}
+.localecon {
+  opacity: 1;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 20px;
+}
+.company {
+  height: 200px;
+  text-align: center;
+}
+.footer {
+  margin-left: 20px;
+}
